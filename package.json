@@ -1,16 +1,25 @@
 {
   "name": "blurts-breach-detail-puppeteer",
+  "description": "Scraping the Firefox Monitor /breach-details/* pages w/ Puppeteer.",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Peter deHaan",
+  "bugs": {
+    "url": "https://github.com/pdehaan/blurts-breach-detail-puppeteer/issues"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
     "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/blurts-breach-detail-puppeteer#readme",
+  "keywords": ["firefox-monitor", "blurts", "hibp"],
+  "license": "MPL-2.0",
+  "main": "lib.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/blurts-breach-detail-puppeteer.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
