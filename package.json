@@ -7,7 +7,7 @@
     "url": "https://github.com/pdehaan/blurts-breach-detail-puppeteer/issues"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "puppeteer": "^2.0.0"
   },
   "devDependencies": {},
